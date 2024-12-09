@@ -17,7 +17,21 @@ The website provides key information to potential clients and contact form for e
 
 ## User Experience
 
+
+
 ## Features
+
+Landing Page 
+
+About Me 
+
+Media? 
+
+Pricing
+
+Enquire Form 
+
+Thank You For Enquiring Page 
 
 ## Technologies Used
 

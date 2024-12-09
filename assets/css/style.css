@@ -8,12 +8,21 @@
 
 /* Navbar */
 
-/* Header */
+/* Hero Section */
 
 #hero {
+    height: 600px;
+    width: 100%;
+    background: url(../assets/images/selah-duo1.jpg) no-repeat center center/cover;
+    position: relative;
+}
 
+#hero-text {
+    position: absolute;
 }
 
 /* Footer */
 
+
 /* Media Queries */
+
