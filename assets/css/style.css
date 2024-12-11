@@ -4,7 +4,7 @@
 /* CCS Variables */
 
 :root {
-    --primary-color: #E02954; /* Amaranth */
+    --primary-color: #E0144E; /* Amaranth */
     --secondary-color: #FFEBD6; /* Antique white */
     --highlight-color: #C88956; /* Persian orange */
     --dark-colour: #0C1618; /* Rich black */
@@ -47,7 +47,6 @@ body {
 
 #hero-text {
     color: #E02954;
-    text-align: center;
     padding: 10px 5px;
     top: 46%;
     font-size: 150%;
@@ -72,6 +71,14 @@ body {
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
+}
+
+/* Media section */ 
+
+#media {
+    background: url(../images/jo-violin2.JPG) no-repeat 80% 20%/cover;
+    background-color: var(--dark-colour);
+    color: white;
 }
 
 /* Footer */
