@@ -13,7 +13,7 @@
 /* Global Styles */
 
 body {
-    margin-top: 60px; /* pushes down the page to stop being covered by nav bar */
+    margin-top: 56px; /* pushes down the page to stop being covered by nav bar */
     color: var(--dark-colour);
 }
 
@@ -35,6 +35,10 @@ body {
 }
 
 /* Navbar */
+
+#navbar {
+    background-color: rgba(13, 19, 33, 0.7);
+}
 
 /* Hero Section */
 
