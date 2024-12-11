@@ -47,14 +47,14 @@ body {
 
 #hero-text {
     color: #E02954;
-    /*background-color: rgba(0, 0, 0, 0.35);*/
     text-align: center;
     padding: 10px 5px;
     top: 46%;
     font-size: 150%;
     font-weight: 450;
     max-width: 350px;
-}
+    /*background-color: rgba(0, 0, 0, 0.35);*/
+    }
 
 /* About Section */
 
@@ -62,12 +62,16 @@ body {
 
 #alex-headshot {
     background: url(../images/alex-bio.png) no-repeat top center/cover;
-    max-height: 600px;
     max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
 }
 
 #jo-headshot {
     background: url(../images/jo-bio.png) no-repeat top center/cover;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
 }
 
 /* Footer */
