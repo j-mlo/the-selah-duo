@@ -7,13 +7,12 @@
     --primary-color: #E0144E; /* Amaranth */
     --secondary-color: #FFEBD6; /* Antique white */
     --highlight-color: #C88956; /* Persian orange */
-    --dark-colour: #0C1618; /* Rich black */
+    --dark-colour: #383838; /* Jet */
 }
 
 /* Global Styles */
 
 body {
-    margin-top: 56px; /* pushes down the page to stop being covered by nav bar */
     color: var(--dark-colour);
 }
 
@@ -34,10 +33,18 @@ body {
     border-radius: 0;
 }
 
-/* Navbar */
+/* Header */
+
+header {
+    background-color: var(--dark-colour);
+}
 
 #navbar {
-    background-color: rgba(13, 19, 33, 0.7);
+    background-color: rgba(56, 56, 56, 0.7);
+}
+
+.active {
+    border-bottom: 2px solid white;
 }
 
 /* Hero Section */
@@ -45,12 +52,13 @@ body {
 #hero {
     height: 100vh;
     width: 100%;
-    background: url(../images/selah-duo1.jpg) no-repeat 70% 20%/cover;
+    background: url(../images/selah-duo1.jpg) no-repeat 70% top/cover;
     background-color: var(--dark-colour)
 }
 
 #hero-text {
     color: #E02954;
+    margin-top: 150px; /* pushes down the element to stop being covered by nav bar */
     padding: 10px 5px;
     top: 46%;
     font-size: 150%;
