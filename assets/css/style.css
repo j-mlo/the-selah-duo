@@ -10,7 +10,7 @@
     --secondary-color: #C88956; /* Persian orange */
     --light-color: #ffffff; /* White */ 
     --dark-colour: #383838; /* Jet */
-    --dark-highlight: #0D1321; /* Rich Black*/
+    --dark-highlight: #0D1321; /* Rich Black */
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Literata', serif;
 }
@@ -54,6 +54,7 @@ header {
     background-color: rgba(56, 56, 56, 0.7);
 }
 
+/* HOMEPAGE */
 /* Hero Section */
 
 #hero {
@@ -65,7 +66,7 @@ header {
 
 #hero-text {
     color: var(--light-color);
-    margin-top: 270px;
+    margin-top: 270px; /* pushes the div down and stops being covered by navbar*/
     padding: 10px 5px;
     top: 46%;
     font-size: 130%;
@@ -98,6 +99,22 @@ header {
     color: var(--light-color);
 }
 
+/* ENQUIRE PAGE */
+/* Enquire Form Section */ 
+
+#enquire {
+    height: 100vh;
+    width: 100%;
+    color: var(--light-color);
+    background: url(../images/alex-guitar1.JPG) no-repeat 70% top/cover;
+    background-color: var(--dark-colour)
+}
+
+#enquiry-form {
+    background-color: rgba(56, 56, 56, 0.7);
+    margin-top: 100px; /* pushes the div down and stops being covered by navbar*/
+}
+
 /* Footer */
 
 footer {
@@ -123,14 +140,14 @@ footer {
 }
 
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
 /* Small Screens: large phones and up (425px and smaller) */ 
 @media screen and (max-width: 425px) {
     
     /* Footer */
     #copyright {
-        font-size: 70%;
+        font-size: 80%;
     }
 }
 
