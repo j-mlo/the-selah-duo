@@ -112,7 +112,7 @@ header {
 
 #enquiry-form {
     background-color: rgba(56, 56, 56, 0.7);
-    margin-top: 98px; /* pushes the div down and stops being covered by navbar*/
+    margin-top: 119px; /* pushes the div down and stops being covered by navbar*/
     padding: 2rem;
 }
 
@@ -153,6 +153,7 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* < (equal & smaller width)*/
 /* Small Screens: large phones and down (425px and smaller) */ 
 @media screen and (max-width: 425px) {
     
@@ -178,6 +179,7 @@ footer {
 
 }
 
+/* > (equal & greater width)*/
 /*Large screens: laptops and up (992px and larger) */
 @media screen and (min-width: 992px) {
     
