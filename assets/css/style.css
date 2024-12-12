@@ -5,15 +5,20 @@
 
 :root {
     --primary-color: #E0144E; /* Amaranth */
-    --secondary-color: #FFEBD6; /* Antique white */
-    --highlight-color: #C88956; /* Persian orange */
+    --highlight-color: #FFEBD6; /* Antique white */
+    --secondary-color: #C88956; /* Persian orange */
+    --light-color: #ffffff; /* White */ 
     --dark-colour: #383838; /* Jet */
+    --dark-highlight: #0D1321; /* Rich Black*/
+    --primary-font: 
+    --secondary-font: 
 }
 
 /* Global Styles */
 
 body {
     color: var(--dark-colour);
+    margin-bottom: 45px; /* pushes down footer */
 }
 
 .section {
@@ -22,15 +27,13 @@ body {
 
 .btn-custom {
     background-color: var(--primary-color);
-    color: white;
-    border-radius: 0;
-    /* border: 1px solid var(--highlight-color); */
+    color: var(--light-color);
 }
 
 .btn-custom:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-color);
     color: var(--primary-color);
-    border-radius: 0;
+    border: 2px solid var(--primary-color);
 }
 
 /* Header */
@@ -43,10 +46,6 @@ header {
     background-color: rgba(56, 56, 56, 0.7);
 }
 
-.active {
-    border-bottom: 2px solid white;
-}
-
 /* Hero Section */
 
 #hero {
@@ -57,14 +56,14 @@ header {
 }
 
 #hero-text {
-    color: #E02954;
+    color: var(--light-color);
     margin-top: 150px; /* pushes down the element to stop being covered by nav bar */
     padding: 10px 5px;
     top: 46%;
     font-size: 150%;
     font-weight: 450;
     max-width: 350px;
-    /*background-color: rgba(0, 0, 0, 0.35);*/
+    background-color: rgba(56, 56, 56, 0.4);
     }
 
 /* About Section */
@@ -90,10 +89,25 @@ header {
 #media {
     background: url(../images/jo-violin2.JPG) no-repeat 80% 20%/cover;
     background-color: var(--dark-colour);
-    color: white;
+    color: var(--light-color);
 }
 
 /* Footer */
+
+footer {
+    background-color: var(--dark-colour);
+    color: var(--light-color);
+}
+
+#social-media {
+    color: var(--light-color);
+}
+
+#social-media i {
+    color: var(--light-color);
+    font-size: 200%;
+    padding: 5px;
+}
 
 
 /* Media Queries */
