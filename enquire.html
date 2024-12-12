@@ -57,50 +57,42 @@
         <div id="enquiry-form" class="col-10 col-md-8">
           <h2 class="text-center">Enquiry Form</h2>
           <p class="text-center">Thank you for </p>
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
+          <form class="row g-3" action="thankyou.html" method="GET">
             <div class="col-12">
-              <label for="inputAddress" class="form-label">Email</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <label for="input-name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="input-name" name="full-name" required>
             </div>
             <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="input-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="input-email" name="email-address" placeholder="example@mail.com" input-email required>
             </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
+            <div class="col-md-6">
+              <label for="input-phone" class="form-label">Phone Number</label>
+              <input type="number" class="form-control" id="input-phone" name="phone-number" input-number required>
+            </div>
+            <div class="col-md-6">
+              <label for="input-event" class="form-label">Event Name</label>
+              <input type="text" class="form-control" id="input-event" name="event-name" placeholder="Anne's 60th Birthday Bash">
+            </div>
+            <div class="col-md-6">
+              <label for="input-package" class="form-label">Package of Interest*</label>
+              <select id="input-package" class="form-select" name="price-package" required>
+                <option selected>Select</option>
+                <option value="love">Love Is In The Air</option>
+                <option value="birthday">Birthday Bonanza</option>
+                <option value="happy-hour">Happy Hour</option>
+                <option value="custom">Custom</option>
               </select>
             </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+            <div class="col-12">
+              <label for="input-message" class="form-label">Message</label>
+              <textarea type="text" rows="6" class="form-control" id="input-message" name="message"required></textarea>
             </div>
             <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-custom">Send</button>
             </div>
           </form>
+          <p id="footnote" class="m-2">* Please have a look at our <a href="pricing.html">pricing</a> options.</p> 
         </div>
       </div>
     </section>
