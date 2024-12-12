@@ -18,7 +18,7 @@
 
 body {
     color: var(--dark-colour);
-    margin-bottom: 45px; /* pushes down footer */
+    margin-bottom: 42px; /* pushes down footer */
 }
 
 .section {
@@ -97,6 +97,7 @@ header {
 footer {
     background-color: var(--dark-colour);
     color: var(--light-color);
+    min-height: 45px;
 }
 
 #social-media {
@@ -109,5 +110,20 @@ footer {
     padding: 5px;
 }
 
+#social-media i:hover {
+    color: var(--primary-color);
+    font-size: 200%;
+    padding: 5px;
+}
+
 
 /* Media Queries */
+
+/* Small Screens: 425px and smaller */ 
+@media screen and (max-width: 425px;) {
+    
+    /* Footer */
+    #copyright {
+        font-size: 70%;
+    }
+}
