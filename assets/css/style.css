@@ -167,6 +167,17 @@ footer {
     }
 }
 
+/* Medium screens: tablets and down (768px and smaller) */
+
+@media screen and (max-width: 768px) {
+    
+    /* Navbar*/
+    #navbar .logo {
+        width: 65px; 
+     }
+
+}
+
 /*Large screens: laptops and up (992px and larger) */
 @media screen and (min-width: 992px) {
     
