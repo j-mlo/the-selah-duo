@@ -25,7 +25,7 @@ Landing Page
 
 About Me 
 
-Media? 
+Media
 
 Pricing
 
@@ -42,6 +42,8 @@ Thank You For Enquiring Page
 - Font Awesome kit 
 - Google Fonts
 - Coolors 
+- Git Hub
+- Git 
 
 ## Testing
 

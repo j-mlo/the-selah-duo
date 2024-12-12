@@ -1,5 +1,6 @@
-/* Imports */ 
-
+/* Google Fonts Import */ 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Macondo&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 /* CCS Variables */
 
@@ -10,15 +11,22 @@
     --light-color: #ffffff; /* White */ 
     --dark-colour: #383838; /* Jet */
     --dark-highlight: #0D1321; /* Rich Black*/
-    --primary-font: 
-    --secondary-font: 
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Literata', serif;
 }
 
 /* Global Styles */
 
 body {
+    font-family: var(--primary-font);
+    font-weight: 200;
     color: var(--dark-colour);
     margin-bottom: 42px; /* pushes down footer */
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    font-weight: 800;
 }
 
 .section {
@@ -31,7 +39,7 @@ body {
 }
 
 .btn-custom:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--light-color);
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
 }
@@ -60,8 +68,7 @@ header {
     margin-top: 150px; /* pushes down the element to stop being covered by nav bar */
     padding: 10px 5px;
     top: 46%;
-    font-size: 150%;
-    font-weight: 450;
+    font-size: 130%;
     max-width: 350px;
     background-color: rgba(56, 56, 56, 0.4);
     }
@@ -112,7 +119,7 @@ footer {
 
 #social-media i:hover {
     color: var(--primary-color);
-    font-size: 200%;
+    font-size: 180%;
     padding: 5px;
 }
 
