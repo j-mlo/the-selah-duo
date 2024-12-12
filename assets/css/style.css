@@ -65,11 +65,10 @@ header {
 
 #hero-text {
     color: var(--light-color);
-    margin-top: 150px; /* pushes down the element to stop being covered by nav bar */
+    margin-top: 270px;
     padding: 10px 5px;
     top: 46%;
     font-size: 130%;
-    max-width: 350px;
     background-color: rgba(56, 56, 56, 0.4);
     }
 
@@ -126,11 +125,38 @@ footer {
 
 /* Media Queries */
 
-/* Small Screens: 425px and smaller */ 
-@media screen and (max-width: 425px;) {
+/* Small Screens: large phones and up (425px and smaller) */ 
+@media screen and (max-width: 425px) {
     
     /* Footer */
     #copyright {
         font-size: 70%;
+    }
+}
+
+/*Large screens: laptops and up (992px and larger) */
+@media screen and (min-width: 992px) {
+    
+    /* Hero Section */
+    #hero-text {
+        margin-top: 350px;
+    }
+}
+
+/*XLarge screens (1200px and larger) */
+@media screen and (min-width: 1200px) {
+    
+    /* Hero Section */
+    #hero-text {
+        margin-top: 400px;
+    }
+}
+
+/*XXLarge screens (1400px and larger) */
+@media screen and (min-width: 1400px) {
+    
+    /* Hero Section */
+    #hero-text {
+        margin-top: 500px;
     }
 }
