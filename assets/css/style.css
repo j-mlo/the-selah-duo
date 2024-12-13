@@ -79,7 +79,8 @@ h1, h2, h3 {
 
 /* About Section */
 
-#about {}
+#about {
+}
 
 #alex-headshot {
     background: url(../images/alex-bio.png) no-repeat top center/cover;
@@ -147,6 +148,12 @@ h1, h2, h3 {
 #thankyou-text {
     margin-top: 140px; /* pushes the div down and stops being covered by navbar*/
     color: var(--light-colorcolor);
+}
+
+/* PRICING PAGE*/
+
+#pricing {
+    margin-top: 140px; /* pushes the div down and stops being covered by navbar*/
 }
 
 /* Footer */
