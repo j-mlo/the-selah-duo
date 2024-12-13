@@ -46,12 +46,16 @@ h1, h2, h3 {
 
 /* Header */
 
-header {
-    background-color: var(--dark-colour);
-}
-
 #navbar {
     background-color: rgba(56, 56, 56, 0.7);
+}
+
+#navbar .logo {
+    width: 80px; 
+ }
+
+ header {
+    background-color: var(--dark-colour);
 }
 
 /* HOMEPAGE */
@@ -112,7 +116,7 @@ header {
 
 #enquiry-form {
     background-color: rgba(56, 56, 56, 0.7);
-    margin-top: 119px; /* pushes the div down and stops being covered by navbar*/
+    margin-top: 170px; /* pushes the div down and stops being covered by navbar*/
     padding: 2rem;
 }
 
@@ -124,6 +128,25 @@ header {
 #enquire a:hover {
     color: var(--secondary-color);
     text-decoration: none;
+}
+
+/* THANKYOU PAGE*/
+
+#thankyou {
+    min-height: 100vh;
+    width: 100%;
+    color: var(--light-colorcolor);
+    background: url(../images/selah-roof.png) no-repeat 31% top/cover;
+    background-color: var(--dark-colour)
+}
+
+#thankyou img {
+    background-color: rgba(56, 56, 56, 0.4);
+}
+
+#thankyou-text {
+    margin-top: 140px; /* pushes the div down and stops being covered by navbar*/
+    color: var(--light-colorcolor);
 }
 
 /* Footer */

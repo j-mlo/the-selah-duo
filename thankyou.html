@@ -54,47 +54,14 @@
   <main>
     
     <!--Enquire Form Section-->
-    <section id="enquire" class="container-fluid">
-      <div class="row justify-content-center">
-        <div id="enquiry-form" class="col-10 col-md-8">
-          <h2 class="text-center">Enquiry Form</h2>
-          <p class="text-center">Thank you for </p>
-          <form class="row g-3" action="thankyou.html" method="GET">
-            <div class="col-12">
-              <label for="input-name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="input-name" name="full-name" required>
-            </div>
-            <div class="col-md-6">
-              <label for="input-email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="input-email" name="email-address" placeholder="example@mail.com" input-email required>
-            </div>
-            <div class="col-md-6">
-              <label for="input-phone" class="form-label">Phone Number</label>
-              <input type="number" class="form-control" id="input-phone" name="phone-number" input-number required>
-            </div>
-            <div class="col-md-6">
-              <label for="input-event" class="form-label">Event Name</label>
-              <input type="text" class="form-control" id="input-event" name="event-name" placeholder="Anne's 60th Birthday Bash">
-            </div>
-            <div class="col-md-6">
-              <label for="input-package" class="form-label">Package of Interest*</label>
-              <select id="input-package" class="form-select" name="price-package" required>
-                <option selected>Select</option>
-                <option value="love">Love Is In The Air</option>
-                <option value="birthday">Birthday Bonanza</option>
-                <option value="happy-hour">Happy Hour</option>
-                <option value="custom">Custom</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <label for="input-message" class="form-label">Message</label>
-              <textarea type="text" rows="6" class="form-control" id="input-message" name="message"required></textarea>
-            </div>
-            <div class="col-12 text-center">
-              <button type="submit" class="btn btn-custom">Send</button>
-            </div>
-          </form>
-          <p id="footnote" class="m-2 text-center">* Please have a look at our <a href="pricing.html">pricing</a> options.</p> 
+    <section id="thankyou" class="container-fluid">
+      <div class="row text-center">
+        <div id="thankyou-text" class="col-12">
+          <h3 class="text-center">Thank you for your enquiry!</h3>
+          <p>We will get back to you as soon as possible</p>
+        </div>
+        <div>
+            <a href="index.html" class="btn btn-custom">Return Home</a>
         </div>
       </div>
     </section>
