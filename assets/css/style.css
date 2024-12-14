@@ -112,7 +112,7 @@ h1, h2, h3 {
 }
 
 #testimonials {
-    min-height: 310px;
+    min-height: 310px;  /* Ensures the carousel doesn't jump heights for different slides*/
 }
 
 /* ENQUIRE PAGE */

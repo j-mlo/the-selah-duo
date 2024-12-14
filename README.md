@@ -11,7 +11,7 @@
 
 ## Introduction
 
-The Selah Duo is a violin and guitar jazz ensemble available for hire at various events. This project's primary goal is to increase engagement and brand awareness with the clients, in order to get more enquiries and event bookings. 
+The Selah Duo static website is for a violin and guitar jazz ensemble available for hire at various events. This project's primary goal is to increase engagement and brand awareness with the clients, in order to get more enquiries and event bookings. 
 
 The website provides key information to potential clients and contact form for enquiries. A visitor will be able to listen to a sample audio file, engage with high quality pictures showcasing previous performances and be directed to Selah Duo's social media links. 
 
@@ -26,6 +26,8 @@ Landing Page
 About Me 
 
 Media
+
+Testimonials
 
 Pricing
 
