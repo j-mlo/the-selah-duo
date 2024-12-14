@@ -202,7 +202,7 @@ All the written content on the webpage is original.
 ### Images
 
 - 3 images on 'Pricing' page have been sourced and licenced by [Pexels](Pexels.com). 
-  Credits for the images go to Wendel Moretti, Ami Suhzu and 
+  Credits for the images go to Wendel Moretti, Ami Suhzu and The OurWhisky Foundation.
 - All other images belong to Joanna Davis.
 
 ### Audio
