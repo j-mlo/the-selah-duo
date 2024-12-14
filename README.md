@@ -131,13 +131,23 @@ This would allow the client to see if the duo is available on the date of their 
 - [Bootstrap](https://getbootstrap.com/) library was used for responsive layout and components, such as cards, carousel and navbar.
 - [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for all fonts on the website.
 - [Font Awesome](https://fontawesome.com/icons) was used for the social media icons. 
-- [Coolors] (https://coolors.co/383838-e0144e-ffffff-cb9173) was used for generating a colour palette.
+- [Coolors](https://coolors.co/383838-e0144e-ffffff-cb9173) was used for generating a colour palette.
 - [Canva](https://www.canva.com/) was used for creating a logo and resizing images.
 - [Git] was used for version control through Gitpod terminal: git add ., git commit -m and git push.  
 - [Git Hub](https://github.com/) was used for storing code after being pushed from Git.
 
 
 ## Testing
+
+### HTML Validator
+
+![HTML Validation](documentation/html-validation.jpg)
+
+### CSS Validator
+
+![CSS Validation](documentation/css-validation.jpg)
+
+### Lighthouse Validator
 
 ## Deployment
 
