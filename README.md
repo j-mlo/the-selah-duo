@@ -126,16 +126,16 @@ This would allow the client to see if the duo is available on the date of their 
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap 
+- [HTML5](https://en.wikipedia.org/wiki/HTML) was used for structure and content of the website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) was used for styling and layout.
+- [Bootstrap](https://getbootstrap.com/) library was used for responsive layout and components, such as cards, carousel and navbar.
+- [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for all fonts on the website.
+- [Font Awesome](https://fontawesome.com/icons) was used for the social media icons. 
+- [Coolors] (https://coolors.co/383838-e0144e-ffffff-cb9173) was used for generating a colour palette.
+- [Canva](https://www.canva.com/) was used for creating a logo and resizing images.
+- [Git] was used for version control through Gitpod terminal: git add ., git commit -m and git push.  
+- [Git Hub](https://github.com/) was used for storing code after being pushed from Git.
 
-- Google Fonts
-- Font Awesome kit 
-- Coolors 
-- Canva
-- Git Hub
-- Git 
 
 ## Testing
 
