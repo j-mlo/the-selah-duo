@@ -133,7 +133,7 @@ This would allow the client to see if the duo is available on the date of their 
 - [Font Awesome](https://fontawesome.com/icons) was used for the social media icons. 
 - [Coolors](https://coolors.co/383838-e0144e-ffffff-cb9173) was used for generating a colour palette.
 - [Canva](https://www.canva.com/) was used for creating a logo and resizing images.
-- [Git] was used for version control through Gitpod terminal: git add ., git commit -m and git push.  
+- [Git](https://git-scm.com/) was used for version control through Gitpod terminal: git add ., git commit -m and git push.  
 - [Git Hub](https://github.com/) was used for storing code after being pushed from Git.
 
 
@@ -149,7 +149,51 @@ This would allow the client to see if the duo is available on the date of their 
 
 ### Lighthouse Validator
 
+- Homepage 
+
+Desktop 
+
+
+![Lighthouse Desktop](documentation/lighthouse-home-desktop.jpg)
+
+
+Mobile
+
+
+![Lighthouse Desktop](documentation/lighthouse-home-mobile.jpg)
+
+- Pricing 
+
+- Enquiry Form 
+
+- Thank you 
+
+### Bugs
+
 ## Deployment
+
+The project is deployed on GitHub pages and can be accessed by the following link:
+https://j-mlo.github.io/the-selah-duo/
 
 ## Credits
 
+### Content 
+
+All the written content on the webpage is original.
+
+### Logo
+
+- Designed by Alex Davis.
+
+### Images
+
+- 3 images on 'Pricing' page have been sourced and licenced by [Pexels](Pexels.com). 
+- All other images belong to Joanna Davis.
+
+### Audio
+
+- Recording by The Selah Duo.
+
+### Special Thanks 
+
+Thank you to my mentor Spencer Bariball. 
