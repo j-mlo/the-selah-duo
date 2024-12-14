@@ -149,31 +149,45 @@ This would allow the client to see if the duo is available on the date of their 
 
 ### Lighthouse Validator
 
-- Homepage 
-
-Desktop 
+- Desktop 
 
 
 ![Lighthouse Desktop](documentation/lighthouse-home-desktop.jpg)
 
 
-Mobile
+- Mobile
 
 
 ![Lighthouse Desktop](documentation/lighthouse-home-mobile.jpg)
 
-- Pricing 
+###Manual and DevTools Testing 
 
-- Enquiry Form 
+- All pages load correctly on various device sizes.
+- All images load correctly on each page.
+- Navbar buttons function well on desktop view and toggle with burger icon expanding.
+- All buttons work correctly with the hover effect.
+- All social media links open in a new tab and have the hover effect working correctly.
+- The enquiry form required fields pop up with a message when not filled out. 
 
-- Thank you 
 
 ### Bugs
+
+**About Us section**
+I struggled to change alignment of text with headshots on large screens (998px width and above) and as a result there is some dead white spacing that could be improved from aesthetic point of view, however, it does not affect functionality. 
 
 ## Deployment
 
 The project is deployed on GitHub pages and can be accessed by the following link:
 https://j-mlo.github.io/the-selah-duo/
+
+###Forking 
+
+* Fork this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be forked.
+3. Find the 'Fork' button to the top right of the page.
+4. Once you click the button the fork will be in your repository.
 
 ## Credits
 
@@ -188,6 +202,7 @@ All the written content on the webpage is original.
 ### Images
 
 - 3 images on 'Pricing' page have been sourced and licenced by [Pexels](Pexels.com). 
+  Credits for the images go to Wendel Moretti, Ami Suhzu and 
 - All other images belong to Joanna Davis.
 
 ### Audio
