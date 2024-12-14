@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 .section {
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .btn-custom {
@@ -70,7 +70,7 @@ h1, h2, h3 {
 
 #hero-text {
     color: var(--light-color);
-    margin-top: 270px; /* pushes the div down and stops being covered by navbar*/
+    margin-top: 290px; /* pushes the div down and stops being covered by navbar*/
     padding: 10px 5px;
     top: 46%;
     font-size: 130%;
@@ -78,9 +78,6 @@ h1, h2, h3 {
     }
 
 /* About Section */
-
-#about {
-}
 
 #alex-headshot {
     background: url(../images/alex-bio.png) no-repeat top center/cover;
@@ -224,7 +221,7 @@ footer {
     /* Navbar*/
     #navbar .logo {
         width: 65px; 
-     }
+    }
 
 }
 
