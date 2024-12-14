@@ -6,7 +6,6 @@
 
 :root {
     --primary-color: #E0144E; /* Amaranth */
-    --highlight-color: #FFEBD6; /* Antique white */
     --secondary-color: #C88956; /* Persian orange */
     --light-color: #ffffff; /* White */ 
     --dark-colour: #383838; /* Jet */
@@ -31,6 +30,16 @@ h1, h2, h3 {
 
 .section {
     padding: 4rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
 }
 
 .btn-custom {
@@ -127,16 +136,6 @@ h1, h2, h3 {
     background-color: rgba(56, 56, 56, 0.7);
     margin-top: 170px; /* pushes the div down and stops being covered by navbar*/
     padding: 2rem;
-}
-
-#enquire a {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-#enquire a:hover {
-    color: var(--secondary-color);
-    text-decoration: none;
 }
 
 /* THANKYOU PAGE*/
