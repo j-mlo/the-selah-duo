@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 .section {
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .btn-custom {
@@ -102,6 +102,17 @@ h1, h2, h3 {
     background: url(../images/jo-violin2.JPG) no-repeat 80% 20%/cover;
     background-color: var(--dark-colour);
     color: var(--light-color);
+}
+
+/* Testimonials section */
+
+#testimonials .carousel-item {
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+#testimonials {
+    min-height: 310px;
 }
 
 /* ENQUIRE PAGE */
