@@ -31,10 +31,10 @@
           <img src="assets/images/tsd-logo-white.png" alt="The Selah Duo Logo" class="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " text-centerid="navbarNav">
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <!-- aligns navbar links to the right-->
             <li class="nav-item">
@@ -69,11 +69,11 @@
             <div class="col-md-6">
               <label for="input-email" class="form-label">Email</label>
               <input type="email" class="form-control" id="input-email" name="email-address"
-                placeholder="example@mail.com" input-email required>
+                placeholder="example@mail.com" required>
             </div>
             <div class="col-md-6">
               <label for="input-phone" class="form-label">Phone Number</label>
-              <input type="number" class="form-control" id="input-phone" name="phone-number" input-number required>
+              <input type="number" class="form-control input-number" id="input-phone" name="phone-number" required>
             </div>
             <div class="col-md-6">
               <label for="input-event" class="form-label">Event Name</label>
@@ -82,9 +82,8 @@
             </div>
             <div class="col-md-6">
               <label for="input-package" class="form-label">Package of Interest*</label>
-              <select id="input-package" class="form-select" name="price-package" required>
-                <option selected>Select</option>
-                <option value="love">Love Is In The Air</option>
+              <select id="input-package" class="form-select" name="price-package">
+                <option value="love" selected>Love Is In The Air</option>
                 <option value="birthday">Birthday Bonanza</option>
                 <option value="happy-hour">Happy Hour</option>
                 <option value="custom">Bespoke</option>
@@ -92,7 +91,7 @@
             </div>
             <div class="col-12">
               <label for="input-message" class="form-label">Message</label>
-              <textarea type="text" rows="6" class="form-control" id="input-message" name="message" required></textarea>
+              <textarea rows="6" class="form-control" id="input-message" name="message" required></textarea>
             </div>
             <div class="col-12 text-center">
               <button type="submit" class="btn btn-custom">Send</button>
