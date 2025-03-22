@@ -141,7 +141,21 @@ This would allow the client to see if the duo is available on the date of their 
 
 ### HTML Validator
 
+- index.html 
+
 ![HTML Validation](documentation/html-validation.jpg)
+
+- pricing.html
+
+![HTML Validation Pricing](documentation/pricing-validator.jpg)
+
+- enquire.html
+
+![HTML Validation Enquire](documentation/enquire-validator.jpg)
+
+- thank-you.html
+
+![HTML Validation Thank You](documentation/thank-you-validator.jpg)
 
 ### CSS Validator
 
@@ -180,7 +194,7 @@ I struggled to change alignment of text with headshots on large screens (998px w
 The project is deployed on GitHub pages and can be accessed by the following link:
 https://j-mlo.github.io/the-selah-duo/
 
-###Forking 
+### Forking 
 
 * Fork this project following the steps:
 
